@@ -1,11 +1,11 @@
-# 🍕 Pizza Sales Analysis using SQL
+# Pizza Sales Analysis using SQL
 
 Analysis of pizza-restaurant sales data in **MySQL** to answer 13 business questions, from simple counts to window functions.
 
-## 📌 Objective
+## Objective
 Understand total sales, best-selling pizzas, customer preferences and peak ordering hours.
 
-## 🗂️ Dataset
+##  Dataset
 | Table | Description |
 |---|---|
 | `orders` | order_id, order_date, order_time |
@@ -13,10 +13,10 @@ Understand total sales, best-selling pizzas, customer preferences and peak order
 | `pizzas` | pizza_id, pizza_type_id, size, price |
 | `pizza_types` | pizza_type_id, name, category, ingredients |
 
-## 🛠️ Tools & Skills
+##  Tools & Skills
 MySQL Workbench · JOINs · GROUP BY · Subqueries · Window functions (`SUM() OVER`, `RANK() OVER`)
 
-## ❓ Questions Solved
+##  Questions Solved
 **Basic**
 1. Total number of orders placed
 2. Total revenue from pizza sales
@@ -36,7 +36,7 @@ MySQL Workbench · JOINs · GROUP BY · Subqueries · Window functions (`SUM() O
 12. Cumulative revenue over time
 13. Top 3 pizza types by revenue within each category
 
-## 📊 Key Results
+##  Key Results
 | Metric | Result |
 |---|---|
 | Total orders | 21,350 |
@@ -49,7 +49,7 @@ MySQL Workbench · JOINs · GROUP BY · Subqueries · Window functions (`SUM() O
 | Avg pizzas per day | 138 |
 | Top revenue pizza | The Thai Chicken Pizza ($43,434.25) |
 
-## 📁 Project Structure
+##  Project Structure
 ```
 pizza-sales-sql-analysis/
 ├── pizzahut.sql          # all queries
@@ -58,13 +58,11 @@ pizza-sales-sql-analysis/
 └── README.md
 ```
 
-## ▶️ How to Run
+## How to Run
 1. Create the database and the `orders` / `orders_details` tables using the top of `pizzahut.sql`.
 2. Import the `pizzas` and `pizza_types` CSV files (MySQL Workbench → Table Data Import Wizard).
 3. Run the queries in `pizzahut.sql`.
 
-## 📑 Presentation
-See [`presentation/Pizza_Sales_SQL_Analysis.pdf`](presentation/Pizza_Sales_SQL_Analysis.pdf) for query screenshots and insights.
 
 ## 👤 Author
-**Your Name** · [LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+**ATUL CHAUHAN** 
